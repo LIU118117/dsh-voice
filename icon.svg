@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- dsh-voice：麦克风 + 声波 + 爱心 -->
+  <g>
+    <rect x="4" y="4" width="120" height="120" rx="26" fill="#1e293b"/>
+    <!-- 声波 -->
+    <path d="M20 64 q8 -18 16 0 q8 18 16 0" fill="none" stroke="#60a5fa" stroke-width="5" stroke-linecap="round"/>
+    <path d="M76 64 q8 -26 16 0 q8 26 16 0" fill="none" stroke="#93c5fd" stroke-width="5" stroke-linecap="round" opacity=".85"/>
+    <!-- 麦克风 -->
+    <rect x="56" y="34" width="16" height="30" rx="8" fill="#f472b6"/>
+    <path d="M48 60 q8 12 16 12 q8 0 16 -12" fill="none" stroke="#f472b6" stroke-width="5" stroke-linecap="round"/>
+    <rect x="61" y="72" width="6" height="14" rx="3" fill="#f472b6"/>
+    <!-- 爱心 -->
+    <path d="M64 104 c-4 -6 -12 -8 -17 -3 c-4 4 -4 10 0 14 c4 5 12 9 17 13 c5 -4 13 -8 17 -13 c4 -4 4 -10 0 -14 c-5 -5 -13 -3 -17 3 z" fill="#fda4af"/>
+  </g>
+</svg>

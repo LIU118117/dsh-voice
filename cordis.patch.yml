@@ -1,0 +1,17 @@
+# dsh-voice：让 AI 有声音（带情绪说话 + 唱歌）
+# 依赖本机 Python 环境（含 edge-tts / ChatTTS）与 ffmpeg；路径可按需修改。
+- insert:
+    - id: dsh-voice
+      name: dsh-voice
+      config:
+        # 运行 voice.py 的 Python（需安装 edge-tts；ChatTTS 可选）
+        pythonPath: 'E:\SD-WebUI-Forge\venv\Scripts\python.exe'
+        # ffmpeg / ffplay（用于转码与播放）
+        ffmpegPath: 'E:\tools\ffmpeg\ffmpeg-master-latest-win64-gpl\bin\ffmpeg.exe'
+        ffplayPath: 'E:\tools\ffmpeg\ffmpeg-master-latest-win64-gpl\bin\ffplay.exe'
+        # ChatTTS 模型缓存目录（HF_HOME）
+        modelHome: 'C:\Users\Lenovo\.dsh\tts-models'
+        # auto = 先 ChatTTS（自然、有情感），失败回退 edge-tts
+        engine: auto
+        # 输出/数据目录（留空 = <DSH_HOME>/dsh-voice）
+        dataDir: ''

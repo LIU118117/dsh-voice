@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "dsh-voice",
+    "description": "Give the agent a voice: emotionally colored speech and singing (ChatTTS / edge-tts)."
+  }
+}
